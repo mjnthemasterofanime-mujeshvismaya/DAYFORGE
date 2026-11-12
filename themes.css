@@ -1,0 +1,5 @@
+/* DAYFORGE theme tokens: dark (default / manual), light, system */
+:root{--bg:#F3F7F4;--bg2:#fff;--card:#fff;--tx:#19231D;--tx2:#69776E;--ac:#168E55;--on:#fff;--bd:#DFE8E1;--ok:#168E55;--hi:#C34F43;--bl:#0369A1;--pu:#6D28D9;--or:#C46A31;--emerald:#047857;--sky:#0369A1;--violet:#6D28D9;--brand-gradient:linear-gradient(105deg,var(--emerald) 0%,var(--sky) 52%,var(--violet) 100%);--brand-ink:#062019;
+color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#090D0B;--bg2:#101713;--card:#131C16;--tx:#F3F6F3;--tx2:#A0ADA5;--ac:#34D399;--on:#07130C;--bd:#27332C;--hi:#F08070;--bl:#38BDF8;--pu:#A78BFA;--or:#E99A61;--emerald:#34D399;--sky:#38BDF8;--violet:#A78BFA;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#090D0B;--bg2:#101713;--card:#131C16;--tx:#F3F6F3;--tx2:#A0ADA5;--ac:#34D399;--on:#07130C;--bd:#27332C;--hi:#F08070;--bl:#38BDF8;--pu:#A78BFA;--or:#E99A61;--emerald:#34D399;--sky:#38BDF8;--violet:#A78BFA;color-scheme:dark}
